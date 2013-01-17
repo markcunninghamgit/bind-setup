@@ -11,7 +11,7 @@ else
                 cp named.conf.log /etc/bind/named.conf.log
         fi
 fi
-exit
+
 
 mkdir /etc/bind/zones
 chown -R bind:bind /etc/bind/zones
